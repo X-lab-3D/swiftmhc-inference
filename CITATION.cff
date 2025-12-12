@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Baakman
+    given-names: Coos
+    orcid: "https://orcid.org/0000-0003-4317-1566"
+  - family-names: Xue
+    given-names: Li C.
+    orcid: "https://orcid.org/0000-0002-2613-538X"
+  - family-names: Crocioni
+    given-names: Giulia
+    orcid: "https://orcid.org/0000-0002-0823-0121"
+  - family-names: Rademaker
+    given-names: "Daniel Tobias"
+    orcid: "https://orcid.org/0000-0003-1959-1317"
+  - family-names: Geng
+    given-names: Cunliang
+    orcid: "https://orcid.org/0000-0002-1409-8358"
+  - family-names: David
+    given-names: Frühbuß
+    orcid: "https://orcid.org/0009-0005-2282-7476"
+  - family-names: Aarts
+    given-names: "Yannick Jurriaan Maria"
+    orcid: "https://orcid.org/0009-0000-6756-9136"
+contact:
+  - family-names: Baakman
+    given-names: Coos
+    orcid: "https://orcid.org/0000-0003-4317-1566"
+title: SwiftMHC
+version: 0.9.9
+date-released: 2025-12-12

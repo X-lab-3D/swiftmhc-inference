@@ -1,0 +1,11 @@
+# python compiled
+*.pyc
+
+# vim
+*.swp
+*~
+
+# setup
+build/
+dist/
+swiftmhc.egg-info/
