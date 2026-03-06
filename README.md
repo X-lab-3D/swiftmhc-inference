@@ -61,10 +61,10 @@ To install the proprietary version of PyMOL, please refer to the instructions on
 
 ```
 # Clone SwiftMHC repository
-git clone https://github.com/X-lab-3D/swiftmhc.git
+git clone https://github.com/X-lab-3D/swiftmhc-inference.git
 
 # Enter the SwiftMHC directory
-cd swiftmhc
+cd swiftmhc-inference
 
 # Install SwiftMHC
 pip install .
@@ -240,7 +240,7 @@ To do the evaluation on a pretrained model, run:
 
 ```
 swiftmhc_eval -r evaluation \
-    -p /path/to/extracted/network-models/swiftmhc/swiftmhc-default/model-for-fold-0.pth \
+    /path/to/extracted/network-models/swiftmhc/swiftmhc-default/model-for-fold-0.pth \
     /path/to/extracted/preprocessed/BA_cluster0.hdf5
 ```
 
