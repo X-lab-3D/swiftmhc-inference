@@ -1,4 +1,4 @@
-![Logo is missing here](https://github.com/x-lab-3D/swiftmhc/blob/main/logo.png?raw=true)
+![Logo is missing here](https://github.com/X-lab-3D/swiftmhc-inference/blob/main/logo.png?raw=true)
 
 SwiftMHC is a deep learning algorithm for predicting pMHC structure and binding affinity at the same time.
 It currently works for `HLA-A*02:01` 9-mers only.
@@ -6,7 +6,7 @@ It currently works for `HLA-A*02:01` 9-mers only.
 
 You can run SwiftMHC in Google Colab to get started quickly:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/X-lab-3D/swiftmhc/blob/main/colab/SwiftMHC_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/X-lab-3D/swiftmhc-inference/blob/main/colab/SwiftMHC_colab.ipynb)
 
 ## Publication
 
