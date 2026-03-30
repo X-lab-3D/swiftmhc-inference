@@ -60,6 +60,7 @@ from swiftmhc.tools.pdb import recreate_structure
 from swiftmhc.domain.amino_acid import amino_acids_by_one_hot_index
 from swiftmhc.models.types import ModelType
 from swiftmhc.tools.md import build_modeller, minimize
+from swiftmhc.metrics import MetricsRecord
 import openmm.app
 
 
@@ -395,6 +396,9 @@ class Tester:
             minimize_energy: whether to energy minimize the structures or not
         """
 
+        # start with an empty metrics record
+        record = MetricsRecord(-1, data_loader.dataset.name, output_directory)
+
         # put model in evaluation mode
         model.eval()
 
@@ -413,6 +417,12 @@ class Tester:
                                                    data_loader.dataset.name,
                                                    batch_data, batch_output,
                                                    minimize_energy)
+
+                # Save to metrics
+                record.add_batch(batch_output, batch_data)
+
+        # Create the metrics row for this epoch
+        record.save()
 
     def test(
         self,
